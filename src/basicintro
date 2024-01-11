@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import dog from "./images/cat.png"
+import cat from "./images/cat.png"
 
 import './App.css'
 
@@ -14,7 +14,7 @@ function App() {
         <h1>"HELLO!"</h1>
       </div>
         <h1 id ="Name">
-          Lynn Tang </h1>
+        Preparing to pursue a legal profession post-graduation. </h1>
       <p id = "Student">
          first-year student at Barnard College
       </p>

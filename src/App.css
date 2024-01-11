@@ -1,18 +1,25 @@
 #root {
-  max-width: 500px;
+  width: 100%;
+  max-width: 5000px;
   margin: 0 auto;
-  padding: 20rem;
+  margin-top: 0px;
+  padding: 2rem;
   text-align: left;
 }
 
 @font-face {
   font-family: Cardo;
   src: url(./fonts/Cardo-Regular.ttf);
+} 
+
+@font-face {
+  font-family: Cardo-Italic;
+  src: url(./fonts/Cardo-Italic.ttf);
 }
 
 h1 {
   font-family: Cardo;
-  font-size: 90px;
+  font-size: 100px;
   color: rgb(139, 204, 204);
 
   
@@ -20,13 +27,14 @@ h1 {
 
 #Student{
   font-family: Cardo;
-  font-size: 20px;
+  font-size: 25px;
   color: grey;
+  
 }
 
 
 #Studying{
-  font-family: Cardo;
+  font-family: Cardo-Italic;
   font-size: 20px;
   color: grey;
 }
@@ -37,7 +45,7 @@ h1 {
 }
 #name{
   font-family: Cardo;
-  font-size: 90px;
+  font-size: 200px;
   color: rgb(139, 204, 204);
 
 }
@@ -80,4 +88,8 @@ h1 {
 
 body{
   background-color: whitesmoke;
+}
+
+#cat{
+  width: 100%;
 }
