@@ -16,12 +16,21 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
+  return ( <HashRouter>
+
     <>
       <div>
         <NavigationBar></NavigationBar>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/ProfessionslExperience" element={<ProfessionalExperience />} />
+          <Route path="/MissionStatement" element={<MissionStatement />} />
+        </Routes>
       
       </div>
+ç
 
       <div>
         <h1>A first-year student at Barnard College aspiring to pursue a major in Economics. </h1>
@@ -36,6 +45,7 @@ function App() {
       <img src = {cat} id="cat"> 
       </img>
     </>
+    </HashRouter>
   )
 }
 export default App
