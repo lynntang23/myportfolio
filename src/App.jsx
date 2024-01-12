@@ -37,10 +37,7 @@ function App() {
       </div>
         <h1 id ="Name">
           Preparing to pursue a legal profession post-graduation. </h1>
-      <p id = "Student">
-         Hello! This will be my portfolio website and I hope to be able to share my experiences here.
-
-      </p>
+      
      
       <img src = {cat} id="cat"> 
       </img>

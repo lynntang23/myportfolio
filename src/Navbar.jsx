@@ -4,7 +4,7 @@ function NavigationBar(){
         <>    
             <nav>
                <h1 id= "name">
-                   Lynn Tang
+                   @lynntang
                </h1>
              <div>
                <ul id ="navbar">

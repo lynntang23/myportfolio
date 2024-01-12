@@ -9,6 +9,7 @@
     font-family: Cardo;
     font-size: 130px;
     float: inline-start;
+    
 
 }
 #navbar{
@@ -17,6 +18,8 @@
     justify-content: flex-end;
     margin-right: 30px;
     float: right;
+    
+    
 }   
 
 #navbar li{
@@ -51,5 +54,17 @@ nav {
     display: flex;
     justify-content: space-between; /* Add space between name and links */
     align-items: center;
+    border-bottom: 5px solid grey;
+    margin: 0;
+    margin-bottom: 100px;
+
+    
 }
 
+.flexbox-container {
+    margin-top: 100;
+}
+
+body{
+    margin:0;
+}

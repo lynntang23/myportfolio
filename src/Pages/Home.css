@@ -1,0 +1,45 @@
+#pet {
+    width: 600px;
+    position:relative;
+    
+    
+   
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-container {
+    position:relative;
+    box-sizing: border-box;
+    border: px solid rgb(255, 200, 207);
+    background-color: rgb(255, 200, 207);
+    border-style:none;
+
+    
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px; /* or use padding-bottom */
+}
+
+.flexbox-container p{
+    text-align: center;
+    flex-basis: 100%;
+    flex-shrink: 2;
+}
+
+#classname {
+    font-size: 150px;
+    font-family: cardo;
+    color: white;
+    border: 5px solid rgb(139, 204, 204);
+    background-color: rgb(139, 204, 204);
+    border-style:outset;
+    margin: 7rem;
+    border-radius: 10px;
+}
