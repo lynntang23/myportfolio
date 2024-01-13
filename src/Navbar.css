@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Outfit:wght@100..900&display=swap" rel="stylesheet');
 @font-face {
     font-family: Cardo;
     src: url(./fonts/Cardo-Regular.ttf);
   }
-
-
+  @font-face {
+    font-family: Outfit;
+    src: url(./fonts/Outfit.ttf);
+  }
+  @font-face {
+    font-family: Christmas;
+    src: url(./fonts/Christmas.ttf);
+  }
 #name{
-    margin-left: 30px;
-    font-family: Cardo;
-    font-size: 130px;
+    margin-left: 80px;
+    font-family: "Mountains of Christmas";
+    font-weight: 700;
+    font-size: 140px;
     float: inline-start;
+    color: rgb(139, 204, 204)
     
 
 }
@@ -24,9 +33,9 @@
 
 #navbar li{
     list-style: none;
-    padding: 0 15px;
+    padding: 0 60px;
     position: relative;
-    border: 5px solid rgb(139, 204, 204);
+    border: 10px solid rgb(139, 204, 204);
     background-color: rgb(139, 204, 204);
     border-style:outset;
     
@@ -35,12 +44,12 @@
     
 #navbar li a { 
 
-    font-family: Cardo;
-    font-size: 90px;
+    font-family: Cardo-bold;
+    font-size: 300px;
     color: rgb(255, 255, 255);
     text-decoration:none;
-    font-size: 2.8rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 1000;
     color: #ffffff;
    
    
@@ -54,12 +63,13 @@ nav {
     display: flex;
     justify-content: space-between; /* Add space between name and links */
     align-items: center;
-    border-bottom: 5px solid grey;
+    border-bottom: 5px solid black;
     margin: 0;
     margin-bottom: 100px;
-
     
 }
+    
+
 
 .flexbox-container {
     margin-top: 100;

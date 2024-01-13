@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Outfit:wght@100..900&display=swap" rel="stylesheet');
+
 #cat {
   margin: 20px
+  
   
   
 }
@@ -10,7 +13,8 @@
   margin: 0 auto;
   margin-top: 0px;
   padding: 0;
-  text-align: left;
+  text-align: center;
+  font-size: 24px
 }
 
 @font-face {
@@ -19,15 +23,25 @@
 } 
 
 @font-face {
-  font-family: Cardo-Italic;
-  src: url(./fonts/Cardo-Italic.ttf);
+  font-family: Christmas;
+  src: url(./fonts/Christmas.ttf);
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(./fonts/Outfit.ttf);
 }
 
 h1 {
-  font-family: Cardo;
-  font-size: 100px;
-  color: rgb(139, 204, 204);
-  margin-left: 4rem;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 1000;
+  font-size: 60px;
+  color: black;
+  margin: 5rem;
+  
+  
+  
+  
   
 }
 
@@ -50,8 +64,9 @@ h1 {
   font-family: Cardo;
 }
 #name{
-  font-family: Cardo;
-  font-size: 200px;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-size: 500px;
   color: grey;
   
   
@@ -104,3 +119,4 @@ body{
 #cat{
   width: 100%;
 }
+

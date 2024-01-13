@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Cardo;
+    src: url(./fonts/Cardo-Regular.ttf);
+  }
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-container {
+    position:relative;
+    box-sizing: border-box;
+    border: 12px solid rgb(255, 200, 207);
+    background-color: rgb(255, 200, 207);
+    border-style:outset;
+
+    
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px; /* or use padding-bottom */
+}
+
+.flexbox-container p{
+    text-align: center;
+    flex-basis: 100%;
+    flex-shrink: 2;
+}
+
+#aboutname {
+    font-size: 50px;
+    font-family: Cardo-bold;
+    color: white;
+    border: 20px solid rgb(139, 204, 204);
+    background-color: rgb(139, 204, 204);
+    border-style:outset;
+    margin: 6rem;
+    border-radius: 20px;
+    padding: 50px
+    
+}
+
+#winnie {
+    width: 20%;
+    clip-path: ellipse();
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 25px solid whitesmoke; /* Set the border color */
+  border-radius: 50%; /* Make the border circular */
+  border-style:dotted
+}
+    
+
+
+#purpledog {
+    width: 20%;
+    clip-path: ellipse();
+    margin-right: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    border: 25px solid whitesmoke; /* Set the border color */
+  border-radius: 50%; /* Make the border circular */
+  border-style:dotted
+   
+}
