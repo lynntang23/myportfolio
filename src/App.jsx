@@ -5,7 +5,7 @@ import cat from "./images/cat.png"
 
 import './App.css'
 import NavigationBar from "./Navbar.jsx"
-import Footer from './Footer.jsx'
+import FooterBar from './Footer.jsx'
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import ProfessionalExperience from "./Pages/ProfessionalExperience"
@@ -29,9 +29,9 @@ function App() {
           <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
           <Route path="/MissionStatement" element={<MissionStatement />} />
         </Routes>
-      
+        
       </div>
-ç
+
 
       <div>
         <h1>A first-year student at Barnard College aspiring to pursue a major in Economics. </h1>
@@ -47,7 +47,7 @@ function App() {
       
 
       </div>
-
+      <FooterBar></FooterBar>
     </>
     </HashRouter>
   )

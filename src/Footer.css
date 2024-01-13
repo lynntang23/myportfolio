@@ -9,8 +9,6 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(90deg, #96beff, #393839);
-    color: white;
     text-align: center;
     height: 50px; /* Adjusted height */
   }
@@ -18,7 +16,8 @@
   .flex {
     display: flex;
     align-items: flex-end;
-    padding-top: 0.5%;
+    padding-top: 5%;
     justify-content: center;
     gap: 10px;
+    
   }
